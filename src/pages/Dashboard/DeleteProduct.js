@@ -26,7 +26,7 @@ function DeleteProduct({show,onHide , activEditDetail}) {
 
 
   return (
-    <Modal show={show} onHide={onHide}>
+    <Modal show={show} onHide={onHide} style={{zIndex:9999}}>
         <Modal.Header closeButton>
           <Modal.Title>Delete Product</Modal.Title>
         </Modal.Header>

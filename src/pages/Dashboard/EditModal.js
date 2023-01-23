@@ -35,7 +35,7 @@ function EditModal({ show, onHide, activEditDetail }) {
   }
 
   return (
-    <Modal show={show} onHide={onHide}>
+    <Modal show={show} onHide={onHide} style={{zIndex:9999}}>
       <Modal.Header closeButton>
         <Modal.Title> <h1 className="h3 mb-0 text-gray-800">Product Detail</h1></Modal.Title>
       </Modal.Header>
