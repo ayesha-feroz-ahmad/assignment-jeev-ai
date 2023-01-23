@@ -9744,6 +9744,16 @@ a:focus {
   background-color: #f8f9fc;
   width: 100%;
   overflow-x: hidden;
+  margin-left: 224px;
+}
+
+@media (max-width:767px) {
+  #wrapper #content-wrapper {
+    background-color: #f8f9fc;
+    width: 100%;
+    overflow-x: hidden;
+    margin-left: 108px;
+  }
 }
 
 #wrapper #content-wrapper #content {
@@ -9758,6 +9768,7 @@ a:focus {
 .container-xl {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  margin-top:92px;
 }
 
 .scroll-to-top {
@@ -10113,7 +10124,161 @@ a:focus {
 
 .topbar {
   height: 4.375rem;
+  position: fixed;
+  width: 85%;
+  top: 0;
 }
+
+@media (max-width:2808px) {
+  .topbar {
+    height: 4.375rem;
+    position: fixed;
+    width: 89%;
+    top: 0;
+    z-index: 9999;
+  }
+
+}
+@media (max-width:1900px){
+  .topbar {
+    height: 4.375rem;
+    position: fixed;
+    width: 88%;
+    top: 0;
+    z-index: 9999;
+
+  }
+}
+@media (max-width:1700px){
+  .topbar {
+    height: 4.375rem;
+    position: fixed;
+    width: 87%;
+    top: 0;
+    z-index: 9999;
+
+  }
+}
+@media (max-width:1500px){
+  .topbar {
+    height: 4.375rem;
+    position: fixed;
+    width: 85%;
+    top: 0;
+    z-index: 9999;
+
+  }
+}
+
+@media (max-width:1200px){
+  .topbar {
+    height: 4.375rem;
+    position: fixed;
+    width: 82%;
+    top: 0;
+    z-index: 9999;
+
+  }
+}
+
+@media (max-width:1121px){
+  .topbar {
+    height: 4.375rem;
+    position: fixed;
+    width: 80%;
+    top: 0;
+    z-index: 9999;
+
+  }
+}
+
+@media (max-width:1072px){
+  .topbar {
+    height: 4.375rem;
+    position: fixed;
+    width: 80%;
+    top: 0;
+    z-index: 9999;
+
+  }
+}
+
+@media (max-width:1000px){
+  .topbar {
+    height: 4.375rem;
+    position: fixed;
+    width: 78%;
+    top: 0;
+    z-index: 9999;
+
+  }
+}
+
+@media (max-width:910px){
+  .topbar {
+    height: 4.375rem;
+    position: fixed;
+    width: 75%;
+    top: 0;
+    z-index: 9999;
+
+  }
+}
+
+
+@media (max-width:814px){
+  .topbar {
+    height: 4.375rem;
+    position: fixed;
+    width: 74%;
+    top: 0;
+    z-index: 9999;
+
+  }
+}
+
+@media (max-width:768px) {
+  .topbar {
+    height: 4.375rem;
+    position: fixed;
+    width: 87%;
+    top: 0;
+    z-index: 9999;
+
+  }
+}
+
+@media (max-width:600px) {
+  .topbar {
+    height: 4.375rem;
+    position: fixed;
+    width: 85%;
+    top: 0;
+    z-index: 9999;
+
+  }
+}
+@media (max-width:500px) {
+  .topbar {
+    height: 4.375rem;
+    position: fixed;
+    width: 80%;
+    top: 0;
+    z-index: 9999;
+
+  }
+}
+@media (max-width:400px) {
+  .topbar {
+    height: 4.375rem;
+    position: fixed;
+    width: 74%;
+    top: 0;
+    z-index: 9999;
+
+  }
+}
+
 
 .topbar #sidebarToggleTop {
   height: 2.5rem;
@@ -10266,6 +10431,7 @@ a:focus {
 .sidebar {
   width: 6.5rem;
   min-height: 100vh;
+  position: fixed;
 }
 
 .sidebar .nav-item {
